@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView1"
+            android:text="@string/what" />
+
+        <TextView
+            style="@style/TextView2"
+            android:text="@string/knowledge" />
+
+        <TextView
+            style="@style/TextView3"
+            android:text="@string/takeQuiz" />
+
+        <ImageView
+            style="@style/ImageView"
+            android:src="@drawable/map" />
+
+        <TextView
+            style="@style/textView_Suez_canal"
+            android:text="@string/suez_canal" />
+
+        <CheckBox
+            android:id="@+id/first_checkbox"
+            style="@style/check_box"
+            android:text="@string/arabian_sea" />
+
+        <CheckBox
+            android:id="@+id/second_checkbox"
+            style="@style/checkBox_child"
+            android:text="@string/red_sea" />
+
+        <CheckBox
+            android:id="@+id/third_checkbox"
+            style="@style/checkBox_child"
+            android:text="@string/medit_sea" />
+
+        <CheckBox
+            android:id="@+id/fourth_checkbox"
+            style="@style/checkBox_child"
+            android:text="@string/baltic_sea" />
+
+        <TextView
+            android:id="@+id/river_question"
+            style="@style/longest_river"
+            android:text="@string/longest_river" />
+
+        <EditText
+            android:id="@+id/answerText"
+            style="@style/radioGroup_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/correctAnswer" />
+
+        <TextView
+            style="@style/TextView_largestDesert"
+            android:text="@string/largest_desert" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup1"
+            style="@style/radioGroup_parent">
+
+
+            <RadioButton
+                android:id="@+id/kalahari_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/kalahari" />
+
+
+            <RadioButton
+                android:id="@+id/sahara_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/sahara" />
+
+            <RadioButton
+                android:id="@+id/arabian_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/arabian" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/textView_populousCountry"
+            android:text="@string/populous_country" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup2"
+            style="@style/radioGroup_parent">
+
+            <RadioButton
+                android:id="@+id/US_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/united_states" />
+
+            <RadioButton
+                android:id="@+id/china_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/china" />
+
+            <RadioButton
+                android:id="@+id/india_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/india" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/highest_mountain"
+            android:text="@string/highest_mountain" />
+
+        <RadioGroup
+            android:id="@+id/RGroup3"
+            style="@style/radioGroup_parent">
+
+            <RadioButton
+                android:id="@+id/k2_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/k2" />
+
+            <RadioButton
+                android:id="@+id/kili_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/kilimanjaro" />
+
+            <RadioButton
+                android:id="@+id/me_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/mount_everest" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/smallest_country"
+            android:text="@string/smallest_country" />
+
+        <RadioGroup
+            android:id="@+id/RGroup5"
+            style="@style/radioGroup_parent">
+
+            <RadioButton
+                android:id="@+id/monaco_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/monaco" />
+
+            <RadioButton
+                android:id="@+id/vatican_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/vatican" />
+
+            <RadioButton
+                android:id="@+id/maldives_radiobutton"
+                style="@style/radioGroup_child"
+                android:text="@string/maldives" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/result_button"
+            style="@style/result_button"
+            android:onClick="showResult"
+            android:text="@string/result" />
+
+        <Button
+            android:id="@+id/resetScore"
+            style="@style/takeQuizAgain_button"
+            android:onClick="resetScore"
+            android:text="@string/takeQuizAgain" />
+
+    </LinearLayout>
+</ScrollView>

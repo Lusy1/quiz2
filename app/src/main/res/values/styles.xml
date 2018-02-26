@@ -1,0 +1,180 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="TextView1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/textSize1</item>
+        <item name="android:layout_marginTop">@dimen/marginTop1</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+    </style>
+
+    <style name="TextView2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/textSize2</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+    </style>
+
+    <style name="TextView3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/textSize3</item>
+        <item name="android:layout_marginTop">@dimen/marginTop15</item>
+        <item name="android:textColor">@color/color2</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+    </style>
+
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height250</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+    </style>
+
+    <style name="TextView_largestDesert">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+        <item name="android:layout_marginBottom">@dimen/bottom15</item>
+        <item name="android:paddingLeft">@dimen/left15</item>
+    </style>
+
+    <style name="radioGroup_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="radioGroup_child">
+        <item name="android:layout_width">@dimen/width155</item>
+        <item name="android:layout_height">@dimen/height45</item>
+        <item name="android:textSize">@dimen/textSize19</item>
+        <item name="android:textColor">@color/color1</item>
+    </style>
+
+    <style name="textView_Suez_canal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+        <item name="android:layout_marginBottom">@dimen/bottom15</item>
+        <item name="android:paddingLeft">@dimen/left15</item>
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="check_box">
+        <item name="android:layout_width">@dimen/width155</item>
+        <item name="android:layout_height">@dimen/height45</item>
+        <item name="android:textSize">@dimen/textSize19</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="checkBox_child">
+        <item name="android:layout_width">@dimen/width155</item>
+        <item name="android:layout_height">@dimen/height45</item>
+        <item name="android:textSize">@dimen/textSize19</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="textView_populousCountry">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+        <item name="android:layout_marginBottom">@dimen/bottom15</item>
+        <item name="android:paddingLeft">@dimen/left15</item>
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="highest_mountain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+        <item name="android:layout_marginBottom">@dimen/bottom15</item>
+        <item name="android:paddingLeft">@dimen/left15</item>
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="longest_river">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+        <item name="android:layout_marginBottom">@dimen/bottom15</item>
+        <item name="android:paddingLeft">@dimen/left15</item>
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="smallest_country">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop20</item>
+        <item name="android:layout_marginBottom">@dimen/bottom15</item>
+        <item name="android:paddingLeft">@dimen/left15</item>
+        <item name="android:textSize">@dimen/textSize20</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:fontFamily">@string/sans_serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="result_button">
+        <item name="android:layout_width">@dimen/width130</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTop30</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize22</item>
+    </style>
+
+    <style name="takeQuizAgain_button">
+        <item name="android:layout_width">@dimen/width130</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTop30</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom20</item>
+    </style>
+
+</resources>
+

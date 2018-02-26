@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">quiz</string>
+        <string name="what">What is your</string>
+        <string name="knowledge">knowledge of geography?</string>
+        <string name="sans_serif">sans-serif</string>
+        <string name="takeQuiz">Take the Quiz to find out!</string>
+    <string name="largest_desert">Which is the largest desert on earth?</string>
+        <string name="kalahari">Kalahari</string>
+        <string name="sahara">Sahara</string>
+        <string name="arabian">Arabian</string>
+        <string name="suez_canal">Which two seas are joined by the Suez Canal?</string>
+        <string name="arabian_sea">Arabian sea</string>
+        <string name="medit_sea">Mediterranean sea</string>
+        <string name="baltic_sea">Baltic sea</string>
+        <string name="populous_country">Which is the most populous country in the world?</string>
+        <string name="red_sea">Red sea</string>
+        <string name="united_states">United States</string>
+        <string name="china">China</string>
+        <string name="india">India</string>
+        <string name="highest_mountain">Which is the world\'s highest mountain?</string>
+        <string name="k2">K2</string>
+        <string name="kilimanjaro">Kilimanjaro</string>
+        <string name="mount_everest">Mount Everest</string>
+        <string name="longest_river">Which is the longest river in the world?</string>
+    <string name="smallest_country">Which is the smallest country, measured by total land area?</string>
+        <string name="vatican">Vatican</string>
+        <string name="maldives">Maldives</string>
+        <string name="result">RESULT</string>
+    <string name="takeQuizAgain">TAKE QUIZ AGAIN</string>
+        <string name="monaco">Monaco</string>
+    <string name="correctAnswer">correctAnswer</string>
+</resources>
+
+

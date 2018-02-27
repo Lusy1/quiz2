@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         int score = 0;
 
-        if (secondAnswer3 && secondAnswer2) {
+        if (secondAnswer3 && secondAnswer2 && !CB1.isChecked() && !CB4.isChecked()) {
             score = score + 1;
         }
 
